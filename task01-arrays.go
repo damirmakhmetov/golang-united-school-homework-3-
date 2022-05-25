@@ -1,3 +1,5 @@
+package homework
+
 func average(input [15]float32) (result float32) {
 	var sum float32
 	var k int = 0
@@ -11,4 +13,3 @@ func average(input [15]float32) (result float32) {
 	result = sum / float32(k)
 	return result
 }
-

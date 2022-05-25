@@ -1,3 +1,5 @@
+package homework
+
 func reverse(input []int64) (result []int64) {
 	//Place your code here
 	for i := range input {
@@ -5,4 +7,3 @@ func reverse(input []int64) (result []int64) {
 	}
 	return result
 }
-
